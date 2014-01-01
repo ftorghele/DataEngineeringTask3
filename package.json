@@ -1,0 +1,12 @@
+{
+  "name": "DataEngineeringTask3",
+  "version": "0.0.1",
+  "dependencies": {
+    "mongojs": "~0.9.8",
+    "twit": "~1.1.11",
+    "csv": "~0.3.6",
+    "bower": "~1.2.8"
+  },
+  "author": "Franz Torghele <franz@torghele.at>",
+  "license": "MIT"
+}
