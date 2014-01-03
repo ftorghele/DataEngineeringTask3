@@ -1,217 +1,227 @@
 {
+    "MY": {
+        "avg_sentiment": 0.4475893166840097,
+        "sentiment": 6452,
+        "sentiment_count": 14415
+    },
     "GB": {
-        "avg_sentiment": 0.5099337748344371,
-        "sentiment": 4851,
-        "sentiment_count": 9513
+        "avg_sentiment": 0.5393266632585992,
+        "sentiment": 22155,
+        "sentiment_count": 41079
     },
     "ID": {
-        "avg_sentiment": -0.01160092807424594,
-        "sentiment": -50,
-        "sentiment_count": 4310
+        "avg_sentiment": 0.5104348939439205,
+        "sentiment": 23920,
+        "sentiment_count": 46862
     },
     "US": {
-        "avg_sentiment": 0.5821440424825755,
-        "sentiment": 12278,
-        "sentiment_count": 21091
-    },
-    "FR": {
-        "avg_sentiment": 0.25407608695652173,
-        "sentiment": 374,
-        "sentiment_count": 1472
-    },
-    "MY": {
-        "avg_sentiment": -0.0017470300489168414,
-        "sentiment": -5,
-        "sentiment_count": 2862
-    },
-    "MX": {
-        "avg_sentiment": 0.39572192513368987,
-        "sentiment": 74,
-        "sentiment_count": 187
-    },
-    "BR": {
-        "avg_sentiment": 0.18922961854899029,
-        "sentiment": 253,
-        "sentiment_count": 1337
-    },
-    "IE": {
-        "avg_sentiment": 0.4309090909090909,
-        "sentiment": 237,
-        "sentiment_count": 550
-    },
-    "ES": {
-        "avg_sentiment": 0.2121559633027523,
-        "sentiment": 185,
-        "sentiment_count": 872
-    },
-    "PT": {
-        "avg_sentiment": 0.7654320987654321,
-        "sentiment": 62,
-        "sentiment_count": 81
-    },
-    "GI": {
-        "avg_sentiment": 1,
-        "sentiment": 3,
-        "sentiment_count": 3
-    },
-    "CA": {
-        "avg_sentiment": 0.6733921815889029,
-        "sentiment": 534,
-        "sentiment_count": 793
+        "avg_sentiment": 0.4419314237766505,
+        "sentiment": 34761,
+        "sentiment_count": 78657
     },
     "GR": {
-        "avg_sentiment": 0.8571428571428571,
-        "sentiment": 12,
-        "sentiment_count": 14
+        "avg_sentiment": -0.6891891891891891,
+        "sentiment": -102,
+        "sentiment_count": 148
     },
     "TR": {
-        "avg_sentiment": -0.4375,
-        "sentiment": -224,
-        "sentiment_count": 512
+        "avg_sentiment": 0.38071133608631946,
+        "sentiment": 2858,
+        "sentiment_count": 7507
     },
-    "NL": {
-        "avg_sentiment": 0.48627450980392156,
-        "sentiment": 124,
-        "sentiment_count": 255
+    "FR": {
+        "avg_sentiment": -0.06980914563852952,
+        "sentiment": -545,
+        "sentiment_count": 7807
     },
     "CL": {
-        "avg_sentiment": 0.15753424657534246,
-        "sentiment": 23,
-        "sentiment_count": 146
+        "avg_sentiment": 0.2474418604651163,
+        "sentiment": 266,
+        "sentiment_count": 1075
     },
-    "CH": {
-        "avg_sentiment": 0.7833333333333333,
-        "sentiment": 47,
-        "sentiment_count": 60
-    },
-    "RU": {
-        "avg_sentiment": -0.03636363636363636,
-        "sentiment": -2,
-        "sentiment_count": 55
-    },
-    "DK": {
-        "avg_sentiment": 0.40425531914893614,
-        "sentiment": 19,
-        "sentiment_count": 47
+    "ES": {
+        "avg_sentiment": 0.39397058823529413,
+        "sentiment": 2679,
+        "sentiment_count": 6800
     },
     "DE": {
-        "avg_sentiment": 0.36666666666666664,
-        "sentiment": 44,
-        "sentiment_count": 120
-    },
-    "BE": {
-        "avg_sentiment": 0.4519230769230769,
-        "sentiment": 47,
-        "sentiment_count": 104
+        "avg_sentiment": 0.678343949044586,
+        "sentiment": 639,
+        "sentiment_count": 942
     },
     "ZA": {
-        "avg_sentiment": 0.5918367346938775,
-        "sentiment": 174,
-        "sentiment_count": 294
+        "avg_sentiment": 0.5519080837094789,
+        "sentiment": 1345,
+        "sentiment_count": 2437
     },
-    "LT": {
-        "avg_sentiment": 0.3333333333333333,
-        "sentiment": 3,
-        "sentiment_count": 9
+    "BR": {
+        "avg_sentiment": 0.04849578820697954,
+        "sentiment": 403,
+        "sentiment_count": 8310
+    },
+    "CH": {
+        "avg_sentiment": 0.19272727272727272,
+        "sentiment": 53,
+        "sentiment_count": 275
+    },
+    "MX": {
+        "avg_sentiment": -0.1733080328905756,
+        "sentiment": -274,
+        "sentiment_count": 1581
+    },
+    "IE": {
+        "avg_sentiment": 0.4508881922675026,
+        "sentiment": 863,
+        "sentiment_count": 1914
+    },
+    "CA": {
+        "avg_sentiment": 0.5244890088700347,
+        "sentiment": 1360,
+        "sentiment_count": 2593
+    },
+    "NL": {
+        "avg_sentiment": 0.43495038588754137,
+        "sentiment": 789,
+        "sentiment_count": 1814
+    },
+    "RU": {
+        "avg_sentiment": -0.3091416608513608,
+        "sentiment": -443,
+        "sentiment_count": 1433
+    },
+    "PT": {
+        "avg_sentiment": -0.3028720626631854,
+        "sentiment": -116,
+        "sentiment_count": 383
     },
     "IT": {
-        "avg_sentiment": 0.6811594202898551,
-        "sentiment": 141,
-        "sentiment_count": 207
-    },
-    "NO": {
-        "avg_sentiment": 0.875,
-        "sentiment": 77,
-        "sentiment_count": 88
-    },
-    "PL": {
-        "avg_sentiment": 0.3157894736842105,
-        "sentiment": 18,
-        "sentiment_count": 57
-    },
-    "RS": {
-        "avg_sentiment": -0.19047619047619047,
-        "sentiment": -4,
-        "sentiment_count": 21
-    },
-    "JP": {
-        "avg_sentiment": 0.38181818181818183,
-        "sentiment": 21,
-        "sentiment_count": 55
+        "avg_sentiment": 0.6267123287671232,
+        "sentiment": 1098,
+        "sentiment_count": 1752
     },
     "SE": {
-        "avg_sentiment": 0.6341463414634146,
-        "sentiment": 78,
-        "sentiment_count": 123
+        "avg_sentiment": 0.5404732254047323,
+        "sentiment": 434,
+        "sentiment_count": 803
+    },
+    "UA": {
+        "avg_sentiment": -0.33858267716535434,
+        "sentiment": -86,
+        "sentiment_count": 254
+    },
+    "PL": {
+        "avg_sentiment": 0.8272921108742004,
+        "sentiment": 388,
+        "sentiment_count": 469
+    },
+    "DK": {
+        "avg_sentiment": 0.7211538461538461,
+        "sentiment": 150,
+        "sentiment_count": 208
     },
     "LV": {
-        "avg_sentiment": -0.16666666666666666,
-        "sentiment": -2,
-        "sentiment_count": 12
+        "avg_sentiment": 0.6815068493150684,
+        "sentiment": 199,
+        "sentiment_count": 292
+    },
+    "SM": {
+        "avg_sentiment": -1,
+        "sentiment": -4,
+        "sentiment_count": 4
+    },
+    "BY": {
+        "avg_sentiment": 0.30973451327433627,
+        "sentiment": 35,
+        "sentiment_count": 113
+    },
+    "BE": {
+        "avg_sentiment": 0.33558178752107926,
+        "sentiment": 199,
+        "sentiment_count": 593
+    },
+    "RS": {
+        "avg_sentiment": 0.3116883116883117,
+        "sentiment": 48,
+        "sentiment_count": 154
+    },
+    "NO": {
+        "avg_sentiment": 0.5451263537906137,
+        "sentiment": 151,
+        "sentiment_count": 277
+    },
+    "JP": {
+        "avg_sentiment": 0.11341632088520055,
+        "sentiment": 82,
+        "sentiment_count": 723
     },
     "AT": {
-        "avg_sentiment": 1.1666666666666667,
-        "sentiment": 56,
-        "sentiment_count": 48
+        "avg_sentiment": 0.6237113402061856,
+        "sentiment": 121,
+        "sentiment_count": 194
     },
     "FI": {
-        "avg_sentiment": 0.9444444444444444,
-        "sentiment": 17,
-        "sentiment_count": 18
-    },
-    "": {
-        "avg_sentiment": 1.5,
-        "sentiment": 3,
-        "sentiment_count": 2
+        "avg_sentiment": 0.6958762886597938,
+        "sentiment": 135,
+        "sentiment_count": 194
     },
     "XK": {
-        "avg_sentiment": 0.6363636363636364,
-        "sentiment": 7,
-        "sentiment_count": 11
+        "avg_sentiment": 0.3163265306122449,
+        "sentiment": 31,
+        "sentiment_count": 98
+    },
+    "MA": {
+        "avg_sentiment": 0.43243243243243246,
+        "sentiment": 32,
+        "sentiment_count": 74
+    },
+    "HU": {
+        "avg_sentiment": 0.6396396396396397,
+        "sentiment": 71,
+        "sentiment_count": 111
     },
     "EE": {
-        "avg_sentiment": 0.75,
-        "sentiment": 6,
-        "sentiment_count": 8
+        "avg_sentiment": 0.7230769230769231,
+        "sentiment": 47,
+        "sentiment_count": 65
     },
-    "MK": {
+    "LU": {
+        "avg_sentiment": 0.7,
+        "sentiment": 7,
+        "sentiment_count": 10
+    },
+    "LT": {
+        "avg_sentiment": -0.28,
+        "sentiment": -7,
+        "sentiment_count": 25
+    },
+    "VA": {
         "avg_sentiment": 0,
         "sentiment": 0,
         "sentiment_count": 2
     },
-    "MA": {
-        "avg_sentiment": 0.625,
-        "sentiment": 5,
-        "sentiment_count": 8
+    "MK": {
+        "avg_sentiment": 0.4772727272727273,
+        "sentiment": 21,
+        "sentiment_count": 44
     },
-    "HU": {
-        "avg_sentiment": 0.7777777777777778,
-        "sentiment": 7,
-        "sentiment_count": 9
+    "GI": {
+        "avg_sentiment": 0,
+        "sentiment": 0,
+        "sentiment_count": 3
     },
-    "BY": {
-        "avg_sentiment": -0.3333333333333333,
-        "sentiment": -2,
-        "sentiment_count": 6
+    "GE": {
+        "avg_sentiment": 0.8125,
+        "sentiment": 13,
+        "sentiment_count": 16
     },
-    "UA": {
-        "avg_sentiment": 0.5,
+    "AM": {
+        "avg_sentiment": 0.6923076923076923,
         "sentiment": 9,
-        "sentiment_count": 18
-    },
-    "SM": {
-        "avg_sentiment": -1,
-        "sentiment": -1,
-        "sentiment_count": 1
+        "sentiment_count": 13
     },
     "AD": {
-        "avg_sentiment": 1,
-        "sentiment": 5,
-        "sentiment_count": 5
-    },
-    "LU": {
-        "avg_sentiment": -1,
-        "sentiment": -1,
-        "sentiment_count": 1
+        "avg_sentiment": -0.5,
+        "sentiment": -2,
+        "sentiment_count": 4
     }
 }

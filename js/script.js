@@ -1,8 +1,10 @@
 $(function () {
 var width  = "100%",
-    height = "80%";
+    height = "80%",
+    max_sentiment = 0,
+    min_sentiment = 0;
 
-var color = d3.scale.category10();
+
 var projection = d3.geo.mercator().translate([550, 300]).scale(100);
 
 var path = d3.geo.path().projection(projection);
@@ -46,10 +48,16 @@ function ready(error, world, names, sentiments) {
       d.color = 0;
     } else {
       d.sentiment = "Tweets: " + countrySentiment.sentiment_count + " - Sentiment: " + countrySentiment.sentiment + " - AVG Sentiment: " + countrySentiment.avg_sentiment;
-      d.color = countrySentiment.sentiment;
+      d.color = countrySentiment.avg_sentiment;
+      if (max_sentiment < countrySentiment.avg_sentiment) {
+        max_sentiment = countrySentiment.avg_sentiment
+      }
+      if (min_sentiment > countrySentiment.avg_sentiment) {
+        min_sentiment = countrySentiment.avg_sentiment
+      }
     }
   });
-
+  
   var country = svg.selectAll(".country").data(countries);
 
   country
@@ -60,6 +68,7 @@ function ready(error, world, names, sentiments) {
     .attr("d", path)
     .attr("stroke", "black")
     .attr("stroke-width", "0.3")
+    .attr("fill-opacity", function(d, i) { return ((d.color > 0)? (1/max_sentiment)*d.color : ((d.color < 0)? (1/min_sentiment)*d.color : 1)); })
     .style("fill", function(d, i) { return ((d.color > 0)? "#3c763d" : ((d.color < 0)? "#a94442" : "#ffffff")); });
 
   country
@@ -69,6 +78,7 @@ function ready(error, world, names, sentiments) {
     .on("mouseout",  function(d,i) {
       $("#infobox").html("<b>Info:</b> the map is drag and zoomable");
     });
+console.log(max_sentiment + " " + min_sentiment);
 }
 
 });
